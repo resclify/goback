@@ -1,17 +1,27 @@
 # GoBack
 
+A small game made for the [libGDX Jam 29](https://itch.io/jam/libgdx-jam-29) with the theme **"Time Travel"**.
+
+<img src="android/ic_launcher-web.png" alt="drawing" width="200"/>
+
+## Release
+Downloads and playable Browser-Version under: https://tasty-rhino.itch.io/go-back
+
+
+## How to build
+
 A [libGDX](https://libgdx.com/) project generated with [gdx-liftoff](https://github.com/libgdx/gdx-liftoff).
 
 This project was generated with a Kotlin project template that includes Kotlin application launchers and [KTX](https://libktx.github.io/) utilities.
 
-## Platforms
+### Platforms
 
 - `core`: Main module with the application logic shared by all platforms.
 - `lwjgl3`: Primary desktop platform using LWJGL3.
 - `android`: Android mobile platform. Needs Android SDK.
 - `teavm`: Experimental web platform using TeaVM and WebGL.
 
-## Gradle
+### Gradle
 
 This project uses [Gradle](https://gradle.org/) to manage dependencies.
 The Gradle wrapper was included, so you can run Gradle tasks using `gradlew.bat` or `./gradlew` commands.
